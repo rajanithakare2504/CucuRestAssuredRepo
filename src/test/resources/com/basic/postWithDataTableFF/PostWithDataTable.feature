@@ -6,7 +6,7 @@ Given  user hit the post request with "Tom" name
 Then user validate followind data
 	|param			|Value			|
 	|id					|notNull		|
-	|statusCode	|200				| 	
+	|statusCode	|201				| 	
 
 #When user hit the get request
 #Then user checks 200 the status code

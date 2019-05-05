@@ -19,6 +19,7 @@ import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
+import org.codehaus.groovy.ast.stmt.SynchronizedStatement;
 import org.json.JSONObject;
 import org.junit.Assert;
 
@@ -71,7 +72,7 @@ public class MyPostWithDataTable {
 		
 		int statusCode = resp.getStatusCode();
 		int expStatusCode = Integer.parseInt(values6);
-		
+		System.out.println(statusCode);
 		Assert.assertTrue(expStatusCode==statusCode);
 		
 		//check id is greater than zero
