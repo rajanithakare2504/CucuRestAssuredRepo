@@ -1,4 +1,4 @@
-package com.MyF1Circuit;
+package com.basic.MyF1Circuit;
 
 import org.junit.Assert;
 
